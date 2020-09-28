@@ -2,6 +2,8 @@
 
 ESP trainer that runs in your terminal. The idea is inspired by [Russell Targ's ESP trainer](http://www.espresearch.com/iphone/) and is based on sound parapsychological study design.
 
+![Screenshot of cli-esp-trainer](assets/preview.png?raw=true "Screenshot of cli-esp-trainer")
+
 ## How it works ✨
 
 1. There's 24 trials.
