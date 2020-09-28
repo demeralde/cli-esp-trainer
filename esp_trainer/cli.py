@@ -1,7 +1,7 @@
 import random
 from typing import List
 
-from colorama import Fore, init as init_colorama, Style
+from colorama import Fore, Style
 from tabulate import tabulate
 
 
@@ -103,10 +103,3 @@ class CLI:
             self._print_trial_result(result, correct_number)
 
         self._print_final_result()
-
-
-if __name__ == "__main__":
-    init_colorama()
-
-    cli = CLI()
-    cli.run_trainer()
