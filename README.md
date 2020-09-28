@@ -14,7 +14,7 @@ ESP trainer that runs in your terminal. The idea is inspired by [Russell Targ's 
 
 This trains you to distinguish an intuitive hunch from mental noise. True intuition should feel like a magnetic pull towards the correct number.
 
-If your result is statistically significant, this is a clear indication of ESP. The scoring levels are 6, 8. 10, 12, or 14 hits. Frequently scoring 12 or more is considered highly developed ESP.
+If your result is statistically significant, this is a clear indication of ESP. The milestones are 6, 8. 10, 12, or 14 hits. Frequently scoring 12 or more is considered highly developed ESP.
 
 ### Features 📔
 
@@ -26,17 +26,33 @@ If your result is statistically significant, this is a clear indication of ESP. 
 - Coloured text
 - Pretty table to display results
 
-#### Future
+#### Future ideas
 
-- Ability to skip a trial
-- Customise amount of trials
-- Export results into .csv file
-- Visualise improvements in results over time with charts
+- Improved number selection prompt
+- Customise amount of trials or or number range to select from
+- Ability to skip trials
+- Export results into .csv file (or maybe SQLite DB)
+- Visualise improvements in results over time with pretty ASCII charts
 - Interactive shell (so you can play again without needing to reload the script)
 - `--help` command to provide info from the terminal
 - Code quality improvements (tests, linting)
-- Website
+- CI/CD
+- Info website for the CLI
+- Progressive web app
 - Public leaderboards
+- Plot different variables (such as your meditation experience or a rating on how you're feeling), to see how this correlates with results
+- Seamless integration with my upcoming meditation app's API (so some of these variables can be inferred)
+- Public statistics for open parapsychology research
+- Settings menu
+- Ability to abort game and go back to the menu
+- Toggle between different themes
+- CLI animations
+- General ASCII art
+- 8-bit sound effects
+- `cmatrix` Easter egg if you make a shit tonne of hits
+- Gamble on your success with crypto
+- IRC channel to meet like-minded panpsychists and the like
+- Tarot deck CLI app of the same style as this project
 
 ### Scientific evidence 🧪
 
@@ -74,9 +90,9 @@ Install dependencies with [Pipenv](https://pipenv.pypa.io/en/latest/):
 pipenv install --dev
 ```
 
-Then open the project with your preferred editor.
+Then open the project with your preferred editor. If possible, it's also recommended to install the [EditorConfig](https://editorconfig.org) plugin.
 
-Open the pipenv shell:
+Open the Pipenv shell:
 
 ```sh
 pipenv shell
@@ -84,3 +100,6 @@ pipenv shell
 
 That's it. Start coding.
 
+## Donations ₿
+
+If you like this project and want to support my endeavors, feel free to send Bitcoin to the following address: `148X9eN1Yy287Xn245j7fqLsESnnaNePyU`
