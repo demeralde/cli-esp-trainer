@@ -48,6 +48,7 @@ If your result is statistically significant, this is a clear indication of ESP. 
 - Toggle between different themes
 - CLI animations
 - General ASCII art
+- Extra results stats
 - 8-bit sound effects
 - `cmatrix` Easter egg if you make a shit tonne of hits
 - Gamble on your success with crypto
