@@ -99,6 +99,12 @@ Open the Pipenv shell:
 pipenv shell
 ```
 
+Open the script:
+
+```sh
+ipython -m esp_trainer
+```
+
 That's it. Start coding.
 
 ## Donations ₿
