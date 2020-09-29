@@ -1,7 +1,6 @@
 import sys
 
 from colorama import init as init_colorama
-
 from esp_trainer.cli import CLI
 
 

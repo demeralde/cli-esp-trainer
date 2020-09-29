@@ -4,6 +4,8 @@ from typing import List
 from colorama import Fore, Style
 from tabulate import tabulate
 
+from esp_trainer.styles import print_text, print_title
+
 
 class CLI:
     ANSWER_RANGE_START: int = 1
@@ -16,9 +18,8 @@ class CLI:
     hit_milestones: List[int] = []
 
     def __init__(self):
-        print(Style.DIM + "\nStarting game...")
-        self._reset_styles()
-        print(f"Total trials: {self.total_trials}\n\n")
+        print_title("ESP TRAINER")
+        print_text(f"Total Trials: {self.total_trials}\n\n")
 
     def _check_number(self, selected_number: int, correct_number: int) -> bool:
         return selected_number == correct_number

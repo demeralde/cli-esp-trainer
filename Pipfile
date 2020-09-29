@@ -8,6 +8,9 @@ ipython = "*"
 
 [packages]
 tabulate = "*"
+prompt-toolkit = "*"
+art = "*"
+colorama = "*"
 
 [requires]
 python_version = "3.8"
