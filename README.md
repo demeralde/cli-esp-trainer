@@ -44,7 +44,7 @@ The proof of ESP is out of the scope of this README. The evidence is extremely s
 
 ### Improving your score 📈
 
-To improve your score, do consciousness work (especially meditation). Psychedelics also help (but do so at your own risk, I can't recommend it unless you know what you're doing).
+To improve your score, do consciousness work (especially meditation).
 
 ## Installation 🚀
 
